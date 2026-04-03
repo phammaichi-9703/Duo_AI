@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn English"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_primary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue your language learning journey"
+            android:textColor="@color/duo_text_gray"
+            android:layout_marginBottom="24dp" />
+
+        <include layout="@layout/item_lesson" />
+        <View android:layout_width="match_parent" android:layout_height="16dp" />
+        <include layout="@layout/item_lesson" />
+        <View android:layout_width="match_parent" android:layout_height="16dp" />
+        <include layout="@layout/item_lesson" />
+        <View android:layout_width="match_parent" android:layout_height="16dp" />
+        <include layout="@layout/item_lesson" />
+        <View android:layout_width="match_parent" android:layout_height="16dp" />
+        <include layout="@layout/item_lesson" />
+
+    </LinearLayout>
+</ScrollView>
