@@ -1,1 +1,2 @@
 include ':DuoAI'
+include ':BTN_Duolingo'
